@@ -1,0 +1,8 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"types": ["node"],
+		"incremental": false
+	},
+	"include": ["src/editor/**/*.ts", "src/editor/**/*.tsx"]
+}

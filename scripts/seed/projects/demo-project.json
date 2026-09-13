@@ -1,0 +1,84 @@
+{
+  "id": "demo-project",
+  "name": "Demo project",
+  "scene": [
+    {
+      "id": "e5a0e01d-d70f-4d8d-afd7-526aa4cc61a3",
+      "type": "hairCard",
+      "depth": 0.9739181571871195,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "width": 0.3559525981017175,
+      "coverage": 800,
+      "position": {
+        "x": 0.651632614810885,
+        "y": 0.5023972861642856,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rootSpread": 0.11,
+      "cutVariance": 0,
+      "heightVariance": 0.84,
+      "modifiers": []
+    },
+    {
+      "id": "37966082-8a31-499a-8264-f8c93d91fb5f",
+      "type": "hairCard",
+      "depth": 0.9769621105361833,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "width": 0.14085432562064137,
+      "coverage": 800,
+      "position": {
+        "x": 0.9225830918477967,
+        "y": 0.5050015791923506,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rootSpread": 0.12,
+      "cutVariance": 0.12,
+      "heightVariance": 0.46,
+      "modifiers": []
+    },
+    {
+      "id": "2892f344-dfda-4ee7-8bac-79b7cc7e07c5",
+      "type": "hairCard",
+      "depth": 0.9762608549269154,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "width": 0.44192066187635265,
+      "coverage": 800,
+      "position": {
+        "x": 0.23227914244597328,
+        "y": 0.5043226130627757,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rootSpread": 0.25,
+      "cutVariance": 0.61,
+      "heightVariance": 0.25,
+      "modifiers": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+export const DUMB_USER_NAMES: string[] = [
+	'Wandering Walrus',
+	'Sleepy Otter',
+	'Confused Penguin',
+	'Curious Raccoon',
+	'Grumpy Badger',
+	'Lucky Ferret',
+	'Silent Owl',
+	'Dizzy Hedgehog',
+	'Brave Mole',
+	'Quiet Fox',
+	'Loud Squirrel',
+	'Cheerful Beaver',
+	'Nervous Rabbit',
+	'Bold Chipmunk',
+	'Sneaky Weasel',
+] as const

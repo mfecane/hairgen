@@ -1,0 +1,5 @@
+# Projects and auth
+
+`projects` (`src/db/schema.ts`) is the persisted form of a session's `Project`: `userId`, `name`, and a `scene` jsonb column holding `ProjectScene.toJSON()` output (`SceneObjectData[]`). `ProjectScene.replaceAll` rehydrates it back into live `SceneObject` items, preserving ids. `/api/projects` lists/creates a user's projects; `/api/projects/[projectId]` loads/saves/deletes one, scoped to the authenticated user.
+
+`/projects` is the signed-in landing spot - the projects list page, gated server-side by `auth()`. `/editor/[projectId]` loads and saves that project's scene via `useProjectPersistence`: its workspace-header Save control reports dirty/saved/failed states, supports Ctrl/Cmd+S, and can create a named copy through Save as; autosave is enabled by default for the session and can be disabled from the same menu. The parameterless `/editor` route is still a scratch, unpersisted session. Sign-in (email code, Google) all redirect to `/projects` on success; the landing page (`/`) redirects a signed-in visitor there too.
